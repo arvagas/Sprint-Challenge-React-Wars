@@ -10,8 +10,3 @@
 h1, p {
   margin: 0;
 }
-
-.card-grid {
-  display: flex;
-  flex-wrap: wrap;
-}
