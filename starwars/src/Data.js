@@ -40,7 +40,7 @@ function Data() {
 
             <CardGrid>
                 {characters.map(char=> (
-                    <Card name={char.name} height={char.height} mass={char.mass} hairColor={char.hair_color} eyeColor={char.eye_color} skinColor={char.skin_color} birthYear={char.birth_year} gender={char.gender} homeWorld={char.homeworld}/>
+                    <Card char={char}/>
                 ))}
             </CardGrid>
         </div>
